@@ -33,6 +33,7 @@ if submit:
     response=gemini_response(user_input=user_input,img=img)
     st.subheader("The response is:")
     st.write(response)
+    
 
 
 
